@@ -20,20 +20,3 @@ This project implements a real-time finger counting system using OpenCV. It capt
 2. The background is averaged over time to allow hand segmentation.
 3. The segmented hand contour is processed using convex hulls and convexity defects.
 4. Valleys between fingers (defects) are counted to estimate the number of fingers shown.
-
-## Usage
-1. Clone or download this repository.
-2. Install dependencies:
-    ```bash
-    pip install opencv-python numpy scikit-learn
-    ```
-3. Run the notebook or Python script:
-    - Place your hand inside the red ROI box.
-    - Wait for the background to be captured.
-    - Show your fingers and the system will display the count.
-
-## Demo
-*(Optional: Add screenshots or GIFs here if desired)*
-
-## License
-This project is for educational purposes.
