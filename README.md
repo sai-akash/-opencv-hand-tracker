@@ -10,7 +10,7 @@ This project implements a real-time finger counting system using OpenCV. It capt
 - Real-time webcam interface
 
 ## Dependencies
-- Python 3.x
+- Python
 - OpenCV
 - NumPy
 - scikit-learn
